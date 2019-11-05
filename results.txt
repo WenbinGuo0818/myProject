@@ -1,0 +1,8 @@
+The possible sequences are
+1------------
+q,       ##
+q,       #^
+q,       #B
+q,       #r
+q,       #B
+q,       #X

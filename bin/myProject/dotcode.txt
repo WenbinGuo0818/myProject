@@ -1,0 +1,23 @@
+digraph finite_state_machine {
+	rankdir=LR;
+	size="5,5";
+	node [color=lightblue2, style=filled];
+	"q0,0"->"q0,0"[label=0];
+	"q0,0"->"q,1"[label=0];
+	node [shape = doublecircle];"f,1";
+	node [shape = circle];
+	"q,1"->"f,1"[label=0];
+	"q,1"->"q,1"[label=1];
+	node [shape = doublecircle];"f,1";
+	node [shape = circle];
+	node [shape = doublecircle];"f,1";
+	node [shape = circle];
+	"f,1"->"f,1"[label=1];
+	node [shape = doublecircle];"f,1";
+	node [shape = circle];
+	node [shape = doublecircle];"f,1";
+	node [shape = circle];
+	"f,1"->"f,1"[label=0];
+	start->"q,1";
+	start [shape=Mdiamond style=dashed];
+}
